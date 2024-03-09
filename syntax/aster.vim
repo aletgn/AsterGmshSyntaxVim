@@ -115,8 +115,6 @@ syn keyword asKey THER_ORTH TRACTION TRAITEMENT TYPE_CHAM TYPE_RACCORD
 syn keyword asKey TYPE_RESU TYPE_RACCORD UNITE UNION UNITE VALE VALE_REF
 syn keyword asKey VALE VECTEUR VECTEUR VISC ZONE
 
-syn keyword typing _F 
-
 hi asProcInit cterm=bold ctermfg=Black ctermbg=White
 hi asProc cterm=bold ctermfg=White
 hi asAFSop cterm=bold ctermfg=Green
@@ -128,7 +126,10 @@ hi asPostOp cterm=bold ctermfg=Magenta
 hi asCompOp cterm=bold ctermfg=Red
 hi asMacr cterm=italic ctermfg=White
 hi asDefiOp cterm=bold ctermfg=Yellow
-hi asKey cterm=bold ctermfg=Brown
-hi typing cterm=bold ctermfg=LightBlue
+hi asKey cterm=bold ctermfg=Brown"
+
+syntax region CustomParentheses start="_F(" end=")"
+hi CustomParentheses cterm=bold ctermfg=LightBlue
+
 
 let b:current_syntax = "aster"
