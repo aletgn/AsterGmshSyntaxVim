@@ -133,7 +133,7 @@ hi asPostOp cterm=bold ctermfg=Magenta
 hi asCompOp cterm=bold ctermfg=Red
 hi asMacr cterm=italic ctermfg=White
 hi asDefiOp cterm=bold ctermfg=Yellow
-hi asKey cterm=bold ctermfg=Brown"
+hi asKey cterm=bold ctermfg=Brown
 
 syntax region CustomParentheses start="_F(" end=")"
 hi CustomParentheses cterm=bold ctermfg=LightBlue
