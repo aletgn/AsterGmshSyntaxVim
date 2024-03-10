@@ -13,5 +13,3 @@ from the cloned folder of this repository. The script actually copies:
 - `filetype.vim`
 
 in `~/.vim`. Note that files in  `ftdetect` allows `.comm` and `.geo` files to be automatically recognised.
-
-**NOTE**. The syntax file of Gmsh is currently in its very early stage.
