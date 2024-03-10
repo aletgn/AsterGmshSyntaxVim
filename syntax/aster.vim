@@ -2,14 +2,13 @@
 " Language: code_aster (alias: as)
 " Current Maintainer: ale.tgn
 " Previous Maintainer: -
-" Last Change: 2024 Mar 09
+" Last Change: 2024 Mar 10
 
-" quit when a syntax file was already loaded
 if exists("b:current_syntax")
   finish
 endif
 
-" Read the python syntax
+" INHERIT PYTHON SYNTAX
 runtime! syntax/python.vim
 unlet b:current_syntax
 
