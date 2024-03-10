@@ -14,7 +14,7 @@ if [ -d "$source_dir" ]; then
     fi
 
     # Use rsync to copy the contents of the source directory to the destination directory
-    rsync -av --exclude=".git" --exclude="README.md" --exclude=".vimrc" --exclude="installSyntax.sh" --exclude="_in_progress" "$source_dir"/ "$destination_dir"
+    rsync -av --exclude=".git" --exclude="README.md" --exclude="LICENSE" --exclude=".vimrc" --exclude="installSyntax.sh" --exclude="_in_progress" "$source_dir"/ "$destination_dir"
 
     echo "Directory copied successfully."
 else
