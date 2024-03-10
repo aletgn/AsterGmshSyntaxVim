@@ -4,14 +4,11 @@
 " Previous Maintainer: -
 " Last Change: 2024 Mar 10
 
-" quit when a syntax file was already loaded
 if exists("b:current_syntax")
   finish
 endif
 
-" Read the C syntax to start with
-"runtime! syntax/c.vim
-"unlet b:current_syntax
+" INHERIT C++ SYNTAX 
 runtime! syntax/cpp.vim
 unlet b:current_syntax
 
