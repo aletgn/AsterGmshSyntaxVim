@@ -4,7 +4,7 @@
 	"patterns": [
 		{"include": "#keywords"},
 		{"include": "#strings"},
-		{"include": "source.cpp"}
+		{"include": "source.python"}
 	],
 	"repository": {
 		"keywords": {
