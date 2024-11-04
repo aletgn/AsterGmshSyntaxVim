@@ -1,0 +1,25 @@
+{
+  "name": "codeastersyntax",
+  "displayName": "CodeAsterSyntax",
+  "description": "Syntax highlight for code_aster",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "aster",
+      "aliases": ["code_aster", "aster"],
+      "extensions": [".comm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "aster",
+      "scopeName": "source.python.aster",
+      "path": "./syntaxes/aster.tmLanguage.json"
+    }]
+  }
+}
