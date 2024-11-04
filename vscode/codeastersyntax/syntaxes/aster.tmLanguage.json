@@ -11,7 +11,12 @@
 			"patterns": [{
 				"name": "keyword.control.aster",
 				"match": "\\b(if|while|for|return)\\b"
-			}]
+			},
+			{
+				"name": "keyword.init.aster",
+				"match": "\\b(DEBUT|FIN)\\b"
+			}
+		]
 		},
 		"strings": {
 			"name": "string.quoted.double.aster",

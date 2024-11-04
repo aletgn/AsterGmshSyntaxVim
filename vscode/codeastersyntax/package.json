@@ -3,6 +3,8 @@
   "displayName": "CodeAsterSyntax",
   "description": "Syntax highlight for code_aster",
   "version": "0.0.1",
+  "publisher": "Alessandro Tognan",
+  "license":"GPL-3.0-only",
   "engines": {
     "vscode": "^1.95.0"
   },
