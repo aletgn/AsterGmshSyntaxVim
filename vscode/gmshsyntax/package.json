@@ -1,6 +1,6 @@
 {
   "name": "gmshsyntax",
-  "displayName": "Gmshsyntax",
+  "displayName": "GmshSyntax",
   "description": "Syntax highlight for Gmsh",
   "version": "0.0.1",
   "publisher": "Alessandro Tognan",

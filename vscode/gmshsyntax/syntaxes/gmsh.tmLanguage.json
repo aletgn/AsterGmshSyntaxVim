@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "code_aster",
+	"name": "gmsh",
 	"patterns": [
 		{"include": "#keywords"},
 		{"include": "#strings"},
@@ -30,5 +30,5 @@
 			]
 		}
 	},
-	"scopeName": "source.cpp.aster"
+	"scopeName": "source.cpp.gmsh"
 }
