@@ -1,0 +1,27 @@
+{
+  "name": "gmshsyntax",
+  "displayName": "Gmshsyntax",
+  "description": "Syntax highlight for Gmsh",
+  "version": "0.0.1",
+  "publisher": "Alessandro Tognan",
+  "license":"GPL-3.0-only",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "gmsh",
+      "aliases": ["Gmsh", "gmsh"],
+      "extensions": [".geo"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "gmsh",
+      "scopeName": "source.cpp.gmsh",
+      "path": "./syntaxes/gmsh.tmLanguage.json"
+    }]
+  }
+}

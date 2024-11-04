@@ -1,5 +1,6 @@
-# code_aster and Gmsh syntax highlight for Vim
+# code_aster and Gmsh syntax highlight for Vim and Visual Studio Code
 
+## Vim
 To install the syntax files, run:
 
 ```bash
@@ -13,3 +14,7 @@ from the cloned folder of this repository. The script actually copies:
 - `filetype.vim`
 
 in `~/.vim`. Note that files in  `ftdetect` allows `.comm` and `.geo` files to be automatically recognised.
+
+## Visual Studio Code
+
+TODO

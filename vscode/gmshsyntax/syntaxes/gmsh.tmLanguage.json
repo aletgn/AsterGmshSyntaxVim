@@ -1,0 +1,34 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "code_aster",
+	"patterns": [
+		{"include": "#keywords"},
+		{"include": "#strings"},
+		{"include": "source.cpp"}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.aster",
+				"match": "\\b(if|while|for|return)\\b"
+			},
+			{
+				"name": "keyword.geom.gmsh",
+				"match": "\\b(Surface)\\b"
+			}
+		]
+		},
+		"strings": {
+			"name": "string.quoted.double.gmsh",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.gmsh",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.cpp.aster"
+}

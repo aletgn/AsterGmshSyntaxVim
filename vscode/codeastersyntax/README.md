@@ -14,12 +14,8 @@ None.
 
 Currently,  it is sufficient to copy this folder to the extension folder of Visual Studio Code to install the language support.
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial release of `codeastersyntax`.
