@@ -6,4 +6,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+- 2025/02/18. Initial release.
+- 2025/06/08. Add keywords and comment support (inherited from Python).

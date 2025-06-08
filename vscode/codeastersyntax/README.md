@@ -19,3 +19,7 @@ Currently,  it is sufficient to copy this folder to the extension folder of Visu
 ### 0.0.1
 
 Initial release of `codeastersyntax`.
+
+### 0.0.2
+
+Add keywords.
